@@ -10,10 +10,10 @@ public class ArrayListConcepts {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "..\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://rahulshettyacademy.com/seleniumPractise/");
+		driver.get("https://seleniumPractise/");
 		//Concept 1
 		Thread.sleep(8000);
 		//driver.findElement(By.xpath("//button[contains(text(),'ADD TO CART')]")).click();
