@@ -58,13 +58,13 @@ public class ArrayListConcepts {
 			
 			// check whether name you extracted is present in arrayList or not-
 			List itemsNeededList = Arrays.asList(itemsNeeded);
+			
 			if (itemsNeededList.contains(formattedName))
 			{
 
   			   j++;
 				// click on Add to cart
 				driver.findElements(By.xpath("//div[@class='product-action']/button")).get(i).click();
-
 				if (j == itemsNeeded.length)
 				{
 					break;
