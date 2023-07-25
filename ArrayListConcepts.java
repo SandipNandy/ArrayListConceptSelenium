@@ -29,9 +29,11 @@ public class ArrayListConcepts {
 		}
 		Thread.sleep(8000);
 		driver.navigate().refresh();
+		
 		Thread.sleep(4000);
         //Concept 2
 		String[] itemsNeeded= {"Cucumber","Brocolli","Beetroot"};
+		
 		addItems(driver,itemsNeeded);
       }
 	
@@ -41,12 +43,14 @@ public class ArrayListConcepts {
 		int j = 0;
 		List<WebElement> products = driver.findElements(By.cssSelector("h4.product-name"));
 		//System.out.println(products.get(0).getText());
+		
 		for (int i = 0; i < products.size(); i++)
 
 		{
 			// Brocolli - 1 Kg
 			// Brocolli, 1 kg
 			String[] name = products.get(i).getText().split("-");
+			
 			String formattedName = name[0].trim();
 			// format it to get actual vegetable name
 			// convert array into array list for easy search
