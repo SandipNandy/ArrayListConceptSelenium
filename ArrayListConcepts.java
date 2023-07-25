@@ -22,6 +22,7 @@ public class ArrayListConcepts {
 		
 		Thread.sleep(8000);
 		//driver.findElement(By.xpath("//button[contains(text(),'ADD TO CART')]")).click();
+		
 		String[] ItemsNeeded= {"Cucumber","Beans","Mushroom","Corn"};
 		for(int i=0;i<ItemsNeeded.length;i++) {
 		driver.findElement(By.xpath("//h4[contains(text(),'"+ItemsNeeded[i]+"')]//following::button[contains(text(),'ADD TO CART')][1]")).click();
