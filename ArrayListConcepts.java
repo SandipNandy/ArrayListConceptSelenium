@@ -30,7 +30,6 @@ public class ArrayListConcepts {
 		int j = 0;
 		List<WebElement> products = driver.findElements(By.cssSelector("h4.product-name"));
 		//System.out.println(products.get(0).getText());
-		
 		for (int i = 0; i < products.size(); i++)
 
 		{
