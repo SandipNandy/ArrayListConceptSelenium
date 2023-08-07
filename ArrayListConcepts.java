@@ -37,7 +37,6 @@ public class ArrayListConcepts {
 			String[] name = products.get(i).getText().split("-");
 			String formattedName = name[0].trim();
 			// format it to get actual vegetable name
-			
 			// convert array into array list for easy search
 			
 			// check whether name you extracted is present in arrayList or not-
