@@ -21,9 +21,7 @@ public class ArrayListConcepts {
 		driver.findElement(By.xpath("//h4[contains(text(),'"+ItemsNeeded[i]+"')]//following::button[contains(text(),'ADD TO CART')][1]")).click();
 			
 		}
-		
 		Thread.sleep(8000);
-		
 		driver.navigate().refresh();
 		Thread.sleep(4000);
         //Concept 2
