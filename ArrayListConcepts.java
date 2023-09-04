@@ -26,6 +26,7 @@ public class ArrayListConcepts {
 		Thread.sleep(4000);
         //Concept 2
 		String[] itemsNeeded= {"Cucumber","Brocolli","Beetroot"};
+		
 		addItems(driver,itemsNeeded);
       }
 	
