@@ -21,6 +21,7 @@ public class ArrayListConcepts {
 		driver.manage().window().maximize();
 		
 		driver.get("https://seleniumPractise/");
+		
 		//Concept 1
 		Thread.sleep(8000);
 		//driver.findElement(By.xpath("//button[contains(text(),'ADD TO CART')]")).click();
