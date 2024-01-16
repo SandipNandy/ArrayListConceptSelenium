@@ -57,6 +57,7 @@ public class ArrayListConcepts {
 			// Brocolli - 1 Kg
 			// Brocolli, 1 kg
 			String[] name = products.get(i).getText().split("-");
+			
 			String formattedName = name[0].trim();
 			// format it to get actual vegetable name
 			// convert array into array list for easy search
