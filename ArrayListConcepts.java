@@ -63,6 +63,7 @@ public class ArrayListConcepts {
 			// format it to get actual vegetable name
 			// convert array into array list for easy search
 			// check whether name you extracted is present in arrayList or not-
+			
 			List itemsNeededList = Arrays.asList(itemsNeeded);
 			
 			if (itemsNeededList.contains(formattedName))
