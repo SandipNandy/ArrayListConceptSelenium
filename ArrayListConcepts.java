@@ -13,7 +13,6 @@ public class ArrayListConcepts {
 		driver.get("https://seleniumPractise/");
 		//Concept 1
 		Thread.sleep(8000);
-		
 		//driver.findElement(By.xpath("//button[contains(text(),'ADD TO CART')]")).click();
 		
 		String[] ItemsNeeded= {"Cucumber","Beans","Mushroom","Corn"};
