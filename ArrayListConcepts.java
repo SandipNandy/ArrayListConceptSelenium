@@ -17,6 +17,7 @@ public class ArrayListConcepts {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.manage().window().maximize();
+		
 		driver.get("https://seleniumPractise/");
 		//Concept 1
 		Thread.sleep(8000);
